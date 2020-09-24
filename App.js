@@ -5,7 +5,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Masum Modi, 301149321</Text>    
+      <View style={styles.topSpace}></View>
+      <Text>I am pursing Mobile Application Development program</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,4 +20,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  topSpace: {
+    marginTop:30
+  }
 });
